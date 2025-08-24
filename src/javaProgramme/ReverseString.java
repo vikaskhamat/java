@@ -6,7 +6,7 @@ public class ReverseString {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter any name to reverse it");
+		System.out.println("Enter your name (vikaslocal change)");
 		String name = sc.nextLine();
 		System.out.println("original String ==" +name);
 		String rev = "";
