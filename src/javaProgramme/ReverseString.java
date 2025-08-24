@@ -8,6 +8,7 @@ public class ReverseString {
 		
 		System.out.println("Enter any name to reverse it");
 		String name = sc.nextLine();
+		System.out.println("original String ==" +name);
 		String rev = "";
 		
 		for(int i = name.length()-1; i>=0 ; i--) {
