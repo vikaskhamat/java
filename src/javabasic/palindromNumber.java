@@ -9,6 +9,7 @@ public class palindromNumber {
 		
 		while(temp != 0) {
 			int rem = temp % 10;
+			System.out.println("Reminder = "+rem);
 			rev = rev * 10 + rem;
 			temp= temp/10;
 		}
